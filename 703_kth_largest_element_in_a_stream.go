@@ -15,6 +15,12 @@ kthLargest.add(9);   // returns 8
 kthLargest.add(4);   // returns 8
 */
 
+/*
+#### 解题思路
+- 维护一个k大小的小顶堆，每次返回堆顶即可
+- golang没有现成的小顶堆，通过实现heap.Interface来实现一个int型的小顶堆
+*/
+
 package main
 
 import (
