@@ -22,7 +22,7 @@ Follow up:
 Could you solve it in linear time?
 */
 /*
-解体思路
+解题思路
 - 用一个window队列储存窗口对应的index
 - 每滑动一个窗口，进行如下操作
 	- 判断窗口中第一个元素是否已超出窗口范围，如果是删除第一个元素
